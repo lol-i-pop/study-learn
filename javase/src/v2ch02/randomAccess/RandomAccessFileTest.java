@@ -1,4 +1,4 @@
-package v2ch02;
+package v2ch02.randomAccess;
 
 import common.Employee;
 
@@ -13,7 +13,7 @@ import java.time.LocalDate;
  **/
 public class RandomAccessFileTest {
 
-    private static final String path = "./src/v2ch02/";
+    private static final String path = "./src/v2ch02/randomAccess";
 
     public static void main(String[] args) throws IOException {
         var staff = new Employee[3];
